@@ -1,31 +1,43 @@
-Rust Template Project
-=====================
+# Nexus 开源项目库
 
-Rust template project for monorepo
+这是 **Nexus** 社交与商业平台的开源组件与工具仓库。本项目采用 Monorepo 结构进行管理，旨在为 Nexus 生态提供高质量、可复用的基础设施。
 
-## Change the initial commit
+## 📦 项目结构
 
-```shell
-git commit --amend --message "🎂 Project initialized!" --date "2012-12-12"
+本项目包含以下核心包：
+
+- **[@linkways/nexus-design](./packages/ui-design)**: 企业级 UI 组件库，基于 Vue 3 + Element Plus 构建。
+- *更多工具包正在筹备中...*
+
+## 🛠 开发环境
+
+本项目使用 **pnpm** 进行包管理，推荐使用最新版本的 Node.js。
+
+### 安装依赖
+
+```bash
+pnpm install
 ```
 
-## Emoji Comment
+### 常用命令
 
-| Emoji  | Meaning                      |  
-|--------|------------------------------|  
-| 🎂     | Project initialized!         |  
-| 🎉     | Release new version          |  
-| 🧪🔮   | Experimental code            |   
-| 🔧🐛🐞 | Bug fix                      |  
-| 🔒     | Security fix                 |  
-| 🐣🐤🐥 | Add feature                  |  
-| 📝🎀   | Documentation                |  
-| 🚀     | Performance improve!         |  
-| 🚧     | Work in progress             |  
-| 🚨     | Test coverage improve!       |  
-| 🚥     | CI improve!                  |  
-| 🔥🧨   | Remove code or files         |
-| 🧹     | Code refactor                |
-| 📈     | Add analytics or branch code |
-| 🤖     | Automation fix               |
-| 📦     | Update dependencies          |
+- **编译所有包**：`pnpm build`
+- **代码规范检查**：`pnpm lint`
+- **自动格式化代码**：`pnpm format`
+- **全项检查 (Lint + Format)**：`pnpm check`
+
+## 🤝 贡献指南
+
+我们非常欢迎社区的贡献！如果你有任何想法、建议或发现了 Bug，请通过 Issue 或 Pull Request 告知我们。
+
+1. Fork 本仓库
+2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启一个 Pull Request
+
+## 📄 开源协议
+
+本项目采用 [MIT](./LICENSE) 协议开源。
+
+© 2026 Linkways
