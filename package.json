@@ -1,7 +1,7 @@
 {
-    "name": "@linkways/nexus",
+    "name": "@linkways/cosmos",
     "private": true,
-    "description": "Open source components and tools for Nexus",
+    "description": "Open source components and tools for Cosmos",
     "scripts": {
         "build": "pnpm -r build",
         "lint": "biome lint .",

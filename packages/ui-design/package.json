@@ -2,7 +2,7 @@
     "private": false,
     "name": "@linkways/cosmos-design",
     "version": "0.0.0",
-    "description": "Enterprise-grade UI components for Cosmos social and business platforms.",
+    "description": "Enterprise-grade UI components for the Cosmos game ecosystem.",
     "author": "Linkways",
     "license": "MIT",
     "publishConfig": {
@@ -17,7 +17,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/linkways/nexus-design"
+        "url": "https://github.com/linkways/cosmos-design"
     },
     "type": "module",
     "main": "./src/index.ts",
