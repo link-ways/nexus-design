@@ -1,10 +1,10 @@
-# @linkways/nexus-design
+# @linkways/cosmos-design
 
-Nexus 社交与商业平台的企业级 UI 组件库。基于 **Vue 3**、**Element Plus** 和 **UnoCSS** 构建。
+Cosmos 游戏生态系统的企业级 UI 组件库。基于 **Vue 3**、**Element Plus** 和 **UnoCSS** 构建。
 
 ## 🚀 特性
 
-- 💎 **现代设计**：专为企业级应用打造的简洁、专业的 UI 界面。
+- 💎 **现代设计**：专为游戏生态系统打造的简洁、专业的 UI 界面。
 - 🛠 **强类型支持**：所有组件和 Props 均提供完善的 TypeScript 支持。
 - 📦 **支持 Tree Shaking**：按需引入，优化打包体积。
 - 🎨 **高度可定制**：通过 CSS 变量和 UnoCSS 轻松定制主题。
@@ -12,7 +12,7 @@ Nexus 社交与商业平台的企业级 UI 组件库。基于 **Vue 3**、**Elem
 ## 📦 安装
 
 ```bash
-pnpm add @linkways/nexus-design
+pnpm add @linkways/cosmos-design
 ```
 
 请确保你已经安装了以下对等依赖（Peer Dependencies）：
@@ -39,7 +39,7 @@ pnpm add vue element-plus @element-plus/icons-vue
 
 ```vue
 <script setup lang="ts">
-import { NxContactList } from '@linkways/nexus-design';
+import { NxContactList } from '@linkways/cosmos-design';
 import { User, OfficeBuilding } from '@element-plus/icons-vue';
 
 const depts = [

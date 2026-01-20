@@ -6,7 +6,7 @@
 
 本项目包含以下核心包：
 
-- **[@linkways/nexus-design](./packages/ui-design)**: 企业级 UI 组件库，基于 Vue 3 + Element Plus 构建。
+- **[@linkways/cosmos-design](./packages/ui-design)**: 企业级 UI 组件库，基于 Vue 3 + Element Plus 构建。
 - *更多工具包正在筹备中...*
 
 ## 🛠 开发环境
