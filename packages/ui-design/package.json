@@ -1,8 +1,8 @@
 {
     "private": false,
-    "name": "@linkways/nexus-design",
+    "name": "@linkways/cosmos-design",
     "version": "0.0.0",
-    "description": "Enterprise-grade UI components for Nexus social and business platforms.",
+    "description": "Enterprise-grade UI components for Cosmos social and business platforms.",
     "author": "Linkways",
     "license": "MIT",
     "publishConfig": {
@@ -11,7 +11,7 @@
     "keywords": [
         "vue",
         "element-plus",
-        "nexus",
+        "cosmos",
         "ui-kit",
         "design-system"
     ],
